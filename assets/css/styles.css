@@ -1,0 +1,40 @@
+body {
+  background-image: url("../img/background.jpg");
+}
+
+@font-face {
+  font-family: "MADE DILLAN";
+  src: url("../fonts/MADE-DILLAN.otf") format("opentype");
+}
+
+h1 {
+  font-family: 'MADE DILLAN', sans-serif;
+}
+
+.pizza-font {
+  font-family: 'MADE DILLAN', sans-serif;
+}
+
+.container {
+  box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.25);
+  border-radius: 20px;
+}
+
+.btn {
+  transition: .2s;
+}
+
+.btn:hover {
+  transform: translateY(-7px);
+}
+
+.btn-primary {
+  background-color: #CC1F42;
+  border-color: #CC1F42;
+  box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.25);
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #CC1F42 !important;
+  border-color: #CC1F42 !important;
+}
